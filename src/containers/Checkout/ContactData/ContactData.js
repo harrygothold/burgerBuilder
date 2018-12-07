@@ -116,7 +116,6 @@ class ContactData extends Component {
 
     }
 
-
     checkValidity = (value, rules) => {
         let isValid = true;
 
@@ -135,7 +134,6 @@ class ContactData extends Component {
         }
         return isValid;
     }
-
 
     inputChangedHandler = (event, inputIdentifier) => {
         const updatedOrderForm = {
